@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+
+
+ nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+ }
+
+
+
+header {
+    width: 100%;
+    height: 7vh;
+    background-color: #6E2A36;
+    
+}
+
+
+.div1 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.div1 p {
+
+    font-weight: 700;
+    color: #F25C3E;
+
+}
+
+
+nav {
+    background-color: #F9F2E4;
+    width: 100%;
+    height: 14vh;
+
+}
+
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+}
+
+nav ul {
+    width: 40%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: #772A36;
+    transition: all .3s ease;
+}
+
+
+
+.hero .left h1 {
+    color: #F2654A;
+    font-size: 300%;
+    font-weight: 750;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 70px;
+    background-color: #F0CFAE;
+}
+
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-image: url('../lesson10/dietshop-slider-pic2.webp');
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: #75973a;
+    color: #F1FFBA;
+    transition: all .4s ease;
+    cursor: pointer;
+    padding: 15px 42px;
+}
+
+
+button:hover {
+    background-color: #8EB747;
+    color: white;
+
+}
+
+.rightp{
+    color: #8A4D50;
+    font-weight: 500;
+}
+
+
+.hero1{
+    background-color: #F4E0C9;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero1 .phero1  p{
+    color: #F2654A;
+    font-size: 20px;
+    font-weight: 1000;
+
+    
+}
+
+
+.phero1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero1 .phero1 span{
+    color: #6E2A36;
+    font-size: 20px;
+    font-weight: 1000;
+  
+}
+
+.menusection{
+    width: 100%;
+    height: 150vh;
+    background-color: #F9F2E4;
+ position: absolute;
+ 
+}
+
+
+.menusection .menu .write{
+    width: 30%;
+    height: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menusection .menu .write p{
+    color: #6E2A36;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.menu img{
+    width: 400px;
+    height: 450px;
+}
+
+
+.menuthreediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+position: relative;
+bottom: 70px;
+height: 40%;
+}
+
+img{
+    padding: 10px;
+}
+
+.aboutproduct{
+    background-color: #F0E7D8;
+    width: 380px;
+    margin-left: 10px;
+    margin-top: -10px;
+    height: 100px;
+    color: #6E2A36;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.aboutproduct  .cost{
+    color: #8EB747;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+.ol{
+    margin-left: 29px;
+}
+
+.aboutproduct .name{
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+.divmenu:hover{
+    margin-top: -20px;
+}
+
+.divmenu1:hover{
+    margin-top: -20px;
+}
+
+.divmenu2:hover{
+    margin-top: -20px;
+}
+
+
+.divmenu{
+    transition: all .4s ease;
+}
+.divmenu1{
+    transition: all .4s ease;
+}
+.divmenu2{
+    transition: all .4s ease;
+}
+
+ul li:hover{
+    color: #F25C3E;
+}
+
+.writ1{
+
+  margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.writ1 p{
+    color: #6E2A36;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.writ1 button{
+    margin-left: 100px;
+    background-color: #F4E0C9;
+    color: #F16449;
+}
+
+
+.writ1 button:hover{
+    background-color: #F5D7B7;
+}
+
+
+.old {
+    width: 100%;
+    height: 100vh;
+    background-color: #F9F2E4;
+    
+}
